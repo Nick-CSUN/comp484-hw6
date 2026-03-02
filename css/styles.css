@@ -1,26 +1,116 @@
-/* Color Palette
-# - color 1
-# - color 2
-# - color 3
-# - color 4
-*/
+/* ============================================
+   COLOR PALETTE
+   Professional Modern Palette
+   --------------------------------------------
+   Navy Blue: #1B263B
+   Slate Blue: #415A77
+   Light Gray: #E0E1DD
+   White: #FFFFFF
+   Accent Blue: #778DA9
+   ============================================ */
 
-/* Global styles 
-------------------------------------*/
+
+/* Quick Test Background (remove later if needed) */
 body {
-    /*background: lightblue;*/
+    background-color: #E0E1DD;
 }
 
 
-/* Header & Footer 
-------------------------------------*/
+/* ============================================
+   GLOBAL STYLES
+   ============================================ */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    color: #1B263B;
+    line-height: 1.6;
+}
 
 
+/* ============================================
+   HEADINGS
+   ============================================ */
 
-/* Work Experience
-------------------------------------*/
+h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: 600;
+}
 
 
+/* ============================================
+   HEADER
+   ============================================ */
 
-/* Education
-------------------------------------*/
+header {
+    background-color: #1B263B;
+    color: #FFFFFF;
+    padding: 40px;
+    text-align: center;
+}
+
+
+/* ============================================
+   WORK EXPERIENCE SECTION
+   ============================================ */
+
+.work-experience {
+    background-color: #FFFFFF;
+    padding: 30px;
+    margin: 20px;
+    border-radius: 8px;
+}
+
+
+/* ============================================
+   EDUCATION SECTION
+   ============================================ */
+
+.education {
+    background-color: #778DA9;
+    padding: 30px;
+    margin: 20px;
+    border-radius: 8px;
+    color: #FFFFFF;
+}
+
+
+/* ============================================
+   FOOTER
+   ============================================ */
+
+footer {
+    background-color: #415A77;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 20px;
+}
+
+
+/* ============================================
+   GENERAL CONTENT SPACING
+   ============================================ */
+
+section {
+    margin-bottom: 30px;
+}
+
+p {
+    font-size: 16px;
+    font-weight: 400;
+}
